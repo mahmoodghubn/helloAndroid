@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        style="@style/imageView"
+        android:src="@drawable/anas"
+/>
+
+    <TextView
+        style="@style/textView"
+        android:id="@+id/textView"
+        android:text="@string/text1"
+  />
+
+
+    <TextView
+        style="@style/textView"
+        android:id="@+id/happy"
+        android:text="@string/text2"
+
+        />
+
+    <TextView
+        style="@style/textView"
+        android:text="@string/text3"
+
+        />
+    <TextView
+        style="@style/textView"
+        android:text="@string/text4"
+        android:autoLink="web"
+        />
+
+</LinearLayout>
